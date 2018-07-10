@@ -1,1 +1,129 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+header{
+    width: 100%;
+    background-repeat:no-repeat;
+    background-image: url("assets/img/patern2.jpg");
+    background-position: center;
+    /*background-size: 250px;*/
+    text-align: center;
+    font-size: 100%;
+    color: #2d6c8b;
+    border-style: groove;
+    margin-bottom:20px;
+}
+.contenedor{
+    background-repeat:no-repeat;
+    /*background-image: url("assets/img/fondo.jpg");*/
+    background-color: #dcf9da;
+    background-size: 100%;
+    background-position: center;
+    height: 60%;
+    display:grid;
+    grid-template-rows: 20% 80%;
+    grid-gap:0px;   
+    color:blue;
+    border-style:double;   
+}
+
+.grid-item {
+    
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  img{
+      width:200px;
+     
+  }
+.navegador{ 
+    
+    color: green;
+    border-style: dotted;   
+    font-size: 100%;   
+    margin-bottom: 50px;
+}
+
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    padding-left: initial;
+    padding-top:initial;
+    text-align:center; 
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top:0;
+    background-color: #7fc002;
+    /*border: 2px solid red;*/
+    /*border-radius: 25px;*/
+    
+}
+nav ul li:hover{
+    width: 100%;
+    background-color: #9cbead;
+    text-decoration-style: none;
+    color: #edffc2;
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+
+.info{
+    font-size: 100%;
+    text-align: center;
+    color: #2d6c8b;
+    border-style:dashed;
+    width: 95%;
+   
+}
+ 
+.footer{
+    height: 20%;
+    color: orange;
+    border-style: groove;
+    margin-top: 10px;
+
+}
+@media screen and (min-width: 615px) {
+
+
+.contenedor{
+    grid-template-columns: 20% 80%;
+}
+img{
+    width: 50%;
+}
+.navegador{ 
+    display:inline-block; 
+    color: #7fc002;
+    border-style: dotted;   
+    font-size: 100%;   
+  
+}
+header{
+    width: 100%;
+    background-repeat:no-repeat;
+    background-image: url("assets/img/pattern.jpg");
+    background-position: center;
+}
+}
+@media screen and (min-width:1250px)
+{
+    .contenedor{
+        grid-template-columns: 20% 80%;
+    }
+    img{
+        width:450px;
+    }
+    .navegador{ 
+        display:inline-table; 
+        color: #7fc002;
+        border-style: dotted;   
+        font-size: 100%;   
+      
+    }
+ 
+}
