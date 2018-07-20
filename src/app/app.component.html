@@ -6,7 +6,19 @@
   </header>
   
   <div class = "contenedor">
-    <app-nav></app-nav>
+    <div class = "grid-item navegador">
+      <nav>
+        <ul>
+          
+        <a href="#"><li>Inicio </li></a>
+        <a [routerLink]="['/aceitecom']"><li>Aceite comestible</li></a>
+        <a [routerLink]="['/aceiteauto']"><li>Aceite Automotor</li></a>
+        <a [routerLink]="['/pilas']"><li>Pilas</li></a>
+        <a [routerLink]="['/electronicos']"><li>Electronicos</li></a>
+        </ul>
+      </nav>
+    </div>
+    
     <div class ="grid-item info">
       <main>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1dCU9HEhx86KVpVTyEBJEXFzPpmnwS_64Xi8aSICfEuiwpCfZ" alt="Pilas">
@@ -22,6 +34,7 @@
         </main>
         </div>
     </div>
+    <router-outlet></router-outlet>
     <div class= "container footer">
   <footer>
   <p>Todos los derechos reservados Elaboro Israel Orozco Guerrero</p>
