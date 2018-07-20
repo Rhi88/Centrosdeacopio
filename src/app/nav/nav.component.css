@@ -1,0 +1,61 @@
+.navegador{ 
+    
+    color: green;
+    border-style: dotted;   
+    font-size: 100%;   
+    margin-bottom: 50px;
+}
+
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    padding-left: initial;
+    padding-top:initial;
+    text-align:center; 
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top:0;
+    background-color: #689F38;;
+    /*border: 2px solid red;*/
+    /*border-radius: 25px;*/
+    
+}
+nav ul li:hover{
+    display:inline-block;
+    width: 100%;
+    background-color: #9cbead;
+    text-decoration-style: none;
+    color: #edffc2;
+    border: 2px solid green;
+    border-radius: 25px;
+    padding: 2px 2px 2px 2px;
+}
+@media screen and (max-width: 600px) {
+.navegador{ 
+     
+    color: red;
+    border-style: dotted;   
+    /*font-size: 2.5vw;  */
+  
+}
+}
+@media screen and (min-width:600px)
+    {
+    .navegador{ 
+            
+        color: red;
+        border-style: dotted;   
+        font-size: 100%;   
+    
+    }
+}
+@media screen and (min-width:1250px){
+    .navegador{ 
+        /*top: 0;*/
+        
+        color: red;
+        border-style: dotted;   
+        font-size: 100%;   
+    
+    }
+}

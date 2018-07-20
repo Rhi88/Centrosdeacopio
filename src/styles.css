@@ -39,37 +39,7 @@ header{
       width:200px;
      
   }
-.navegador{ 
-    
-    color: green;
-    border-style: dotted;   
-    font-size: 100%;   
-    margin-bottom: 50px;
-}
 
-nav ul{
-    width: 100%;
-    list-style-type: none;
-    padding-left: initial;
-    padding-top:initial;
-    text-align:center; 
-    padding-bottom: 5px;
-    padding-left: 5px;
-    margin-top:0;
-    background-color: #689F38;;
-    /*border: 2px solid red;*/
-    /*border-radius: 25px;*/
-    
-}
-nav ul li:hover{
-    width: 100%;
-    background-color: #9cbead;
-    text-decoration-style: none;
-    color: #edffc2;
-    border: 2px solid green;
-    border-radius: 25px;
-    padding: 2px 2px 2px 2px;
-}
 
 h3{
     color:#212121;
@@ -85,10 +55,11 @@ h3{
 }
  
 .footer{
-    height: 20%;
+    /*height: 20%;*/
     color: orange;
     border-style: groove;
     margin-top: 10px;
+    display:inline;
 
 }
 @media screen and (max-width: 600px) {
@@ -100,13 +71,7 @@ h3{
 img{
     width: 50%;
 }
-.navegador{ 
-     
-    color: red;
-    border-style: dotted;   
-    /*font-size: 2.5vw;  */
-  
-}
+
 header{
     width: 100%;
     background: #009688;
@@ -124,13 +89,7 @@ header{
     img{
         width:450px;
     }
-    .navegador{ 
-        
-        color: red;
-        border-style: dotted;   
-        font-size: 100%;   
-      
-    }
+
  
 }
 
@@ -145,18 +104,10 @@ header{
     img{
         width:450px;
     }
-    .navegador{ 
-        /*top: 0;*/
-           
-        color: red;
-        border-style: dotted;   
-        font-size: 100%;   
-      
-    }
+
     .footer{
-        height: 20%;
+        height: 100%;
         width: 100%;
-        
         margin-bottom: 10px;
         margin-right: 10px;
     }

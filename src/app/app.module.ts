@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { PilasComponent } from './pilas/pilas.component';
+import { NavComponent } from './nav/nav.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PilasComponent
+    NavComponent,
+   
   ],
   imports: [
     BrowserModule
