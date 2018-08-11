@@ -1,13 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 html{
-    background-color:#DCEDC8;
+    background: linear-gradient(to left  , #EDE8CD,#C4E1B9 );
+    
 }
 header{
     width: 100%;  
     text-align: center;
     font-size: 100%;
-    background: #009688;
+    background: linear-gradient(to top , #009688, #757575);
     color: #212121;
     margin-bottom:20px;
     height: 20%;
@@ -58,7 +59,7 @@ nav ul li:hover{
 }
 
 .grid-item {
-    
+    margin-top: 15px;
     padding: 5px;
     font-size: 15px;
   }
@@ -75,7 +76,8 @@ h3{
 
 .info{
     display: inline-block;
-    background: #8BC34A;
+    background: linear-gradient(to bottom , #009688,#8BC34A );
+    
     font-size: 100%;
     margin-left: 5px;
     text-align: center;
@@ -96,7 +98,7 @@ h3{
     color: #212121;
     border-style: groove;   
     display:block;
-
+    background: linear-gradient(to bottom , #009688,#8BC34A );
 }
 @media screen and (max-width: 600px) {
 
