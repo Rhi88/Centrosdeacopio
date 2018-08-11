@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 html{
-    background: linear-gradient(to left  , #EDE8CD,#C4E1B9 );
+    background: radial-gradient( #2D936C ,#C4E1B9);
     
 }
 header{
@@ -28,8 +28,8 @@ nav ul{
     padding-left: initial;
     padding-top:initial;
     text-align:center; 
-    padding-bottom: 5px;
-    padding-left: 5px;
+    /*padding-bottom: 5px;*/
+    /*padding-left: 5px;*/
     margin-top:0;
     background-color: #689F38;;
    
@@ -42,7 +42,6 @@ nav ul li:hover{
     background-color: #9cbead;
     text-decoration-style: none;
     color: #edffc2;
-    border: 2px solid green;
     border-radius: 25px;
     padding: 2px 2px 2px 2px;
 }
@@ -98,7 +97,7 @@ h3{
     color: #212121;
     border-style: groove;   
     display:block;
-    background: linear-gradient(to bottom , #009688,#8BC34A );
+    background: linear-gradient(to bottom , #9cbead,#757575);
 }
 @media screen and (max-width: 600px) {
 
